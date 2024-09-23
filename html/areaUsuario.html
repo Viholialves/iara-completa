@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Usuário - Iara Games</title>
+    <link rel="icon" type="image/png" href="../img/icone.png">
+    <link rel="stylesheet" href="../css/areaUsuario.css"> 
+</head>
+<body>
+
+    <header>
+       
+
+
+        <h1>Área do Usuário</h1>
+    </header>
+
+    <!-- Menu de Navegação do Usuário -->
+    <nav class="user-nav">
+       
+        <button class="nav-button" onclick="navigateTo('privacidade.html')">Privacidade</button>
+        <button class="nav-button" onclick="navigateTo('seguranca.html')">Segurança</button>
+        <button class="nav-button" onclick="navigateTo('biblioteca.html')">Histórico de Compras</button>
+        <button class="nav-button logout" onclick="logout()">Encerrar Sessão</button>
+    </nav>
+    <button class="back-button" onclick="goBack()">Voltar</button>
+</body>
+<script src="../java/areausu.js"></script> 
+</html>
