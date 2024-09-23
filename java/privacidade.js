@@ -2,10 +2,11 @@
 document.getElementById('acceptButton').addEventListener('click', function (event) {
     event.preventDefault();
     alert('Sua aceitação foi registrada!');
-    goBack(); // Chama a função para voltar à página anterior
+    goBack('areaUsuario.html'); // Especifica a página para onde o usuário deve ser redirecionado
 });
 
-// Função para voltar para a página anterior
-function goBack() {
-    window.history.back();
+// Função para redirecionar para uma página específica
+function goBack(url) {
+    // Redireciona para a página especificada
+    window.location.href = url;
 }
