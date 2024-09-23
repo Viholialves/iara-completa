@@ -2,7 +2,7 @@
 document.getElementById('acceptButton').addEventListener('click', function (event) {
     event.preventDefault();
     alert('Sua aceitação foi registrada!');
-    goBack('areaUsuario.html'); // Especifica a página para onde o usuário deve ser redirecionado
+    goBack('../html/areaUsuario.html'); // Especifica a página para onde o usuário deve ser redirecionado
 });
 
 // Função para redirecionar para uma página específica
