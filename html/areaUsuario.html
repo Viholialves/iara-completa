@@ -10,10 +10,8 @@
 <body>
 
     <header>
-       
-
-
-        <h1>Área do Usuário</h1>
+     <button class="back-button" onclick="goBack()">Voltar</button>   
+     <h1>Área do Usuário</h1>
     </header>
 
     <!-- Menu de Navegação do Usuário -->
@@ -24,7 +22,10 @@
         <button class="nav-button" onclick="navigateTo('biblioteca.html')">Histórico de Compras</button>
         <button class="nav-button logout" onclick="logout()">Encerrar Sessão</button>
     </nav>
-    <button class="back-button" onclick="goBack()">Voltar</button>
+   
+    <script> function goBack() {
+    window.history.back();
+}</script>
 </body>
 <script src="../java/areausu.js"></script> 
 </html>
