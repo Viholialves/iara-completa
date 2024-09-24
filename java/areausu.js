@@ -12,7 +12,3 @@ function logout() {
         window.location.href = '../index.html'; // Redireciona para a página de login ou inicial
     }
 }
-// Função para voltar para a página anterior
-function goBack() {
-    window.history.back();
-}
